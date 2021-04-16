@@ -1,0 +1,32 @@
+.footer {
+  /* width: 75%; */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: auto;
+  margin-top: 50px;
+  padding-bottom: 100px;
+  background-color: black;
+  height: 100%;
+}
+.footer li {
+  list-style: none;
+  text-align: center;
+  padding: 5px;
+}
+.footer li a {
+  text-decoration: none;
+  color: rgb(180, 190, 201);
+}
+.footer-container {
+  /* height: 300px; */
+  /* border: 2px solid rgb(8, 8, 8); */
+  /* background-color: black; */
+  /* padding: 50px; */
+}
+.footer-container h5 {
+  color: white;
+}
+.footer-sub {
+  padding: 70px;
+}

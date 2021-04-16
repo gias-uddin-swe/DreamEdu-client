@@ -1,0 +1,26 @@
+.sidebar-container {
+  width: 350px;
+  height: 100vh;
+  background-color: black;
+  border: 2px solid red;
+  display: block;
+  position: relative;
+  color: white;
+  text-align: justify;
+}
+.sidebar-container li {
+  list-style: none;
+  margin-top: 20px;
+  text-align: center;
+}
+.dashboard-menu {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 500;
+}
+.dashboard-menu:hover {
+  text-decoration: none;
+  color: rgb(24, 163, 55);
+}

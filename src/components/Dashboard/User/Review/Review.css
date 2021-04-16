@@ -1,0 +1,26 @@
+.apply-form-input {
+  width: 350px;
+  height: 48px;
+  border: 1px solid rgb(226, 238, 226);
+  outline: none;
+  margin-top: 20px;
+  padding: 20px;
+}
+.apply-form-input:hover {
+  border: 1px solid gray;
+}
+.confirm-apply-btn {
+  width: 150px;
+  height: 50px;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(103, 53, 240);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+#text-box {
+  height: 100px;
+}

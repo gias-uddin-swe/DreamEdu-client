@@ -1,0 +1,10 @@
+.menu-items {
+  margin-right: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+.menu-items:hover {
+  text-decoration: none;
+  color: rgb(15, 201, 201);
+}

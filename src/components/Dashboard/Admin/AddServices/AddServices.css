@@ -1,0 +1,50 @@
+.add-service-field {
+  width: 300px;
+  height: 45px;
+  border: 1px solid rgb(226, 238, 226);
+  outline: none;
+  margin: 20px;
+  padding: 20px;
+}
+.add-service-field:hover {
+  border: 1px solid gray;
+}
+.add-service-btn {
+  width: 250px;
+  height: 50px;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  background-color: rgb(103, 53, 240);
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.add-service-price {
+  width: 200px;
+  height: 45px;
+  border: 1px solid rgb(226, 238, 226);
+  outline: none;
+  margin: 20px;
+  padding: 20px;
+}
+.add-service-scholarship {
+  width: 200px;
+  height: 45px;
+  border: 1px solid rgb(226, 238, 226);
+}
+.service-pic {
+  width: 200px;
+  height: 45px;
+  border: 1px solid rgb(226, 238, 226);
+  padding-top: 8px;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: rgb(253, 242, 242);
+  border-radius: 5px;
+  cursor: pointer;
+}
+#service-pic {
+  display: none;
+}

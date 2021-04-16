@@ -1,0 +1,17 @@
+.review-container img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50px;
+}
+.costumer {
+  border: 2px solid rgb(109, 44, 214);
+  padding: 20px;
+  text-align: justify;
+  /* margin-top: 20px; */
+  border-radius: 25px;
+  border-bottom: 7px solid rgb(109, 44, 214);
+  border-top: 7px solid rgb(109, 44, 214);
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+}

@@ -1,0 +1,16 @@
+.image img {
+  width: 50%;
+  height: 150px;
+  border-radius: 10px;
+}
+.service-cards {
+  /* border: 1px solid red; */
+  box-shadow: 10px 10px 20px gray;
+  padding: 20px;
+  width: 80%;
+}
+.services-container {
+  height: 700px;
+  background-color: rgb(245, 243, 243);
+  /* z-index: -1; */
+}

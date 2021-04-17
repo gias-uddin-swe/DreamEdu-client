@@ -34,12 +34,6 @@ function App() {
           <Route path="/login">
             <Login />
           </Route>
-          {/* <Route path="/review">
-          <Review />
-        </Route>
-        <Route path="/add">
-          <AddServices />
-        </Route> */}
         </Switch>
       </Router>
     </UserContext.Provider>

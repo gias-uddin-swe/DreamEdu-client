@@ -6,12 +6,16 @@ import "./ServiceCards.css";
 const ServiceCards = ({ university }) => {
   const [user, setUser] = useContext(UserContext);
   console.log(user);
-  const handleApply = (price, name) => {
+
+  const handleApply = (price, name, image, location) => {
     const userInfo = { ...user };
     userInfo.price = price;
     userInfo.universityName = name;
+    userInfo.image = image;
+    userInfo.location = location;
     setUser(userInfo);
   };
+  console.log(user);
   return (
     <div className="col-md-4 text-center container services-container d-flex justify-content-center align-items-center">
       <div className="service-cards">
@@ -39,7 +43,12 @@ const ServiceCards = ({ university }) => {
             <Link to="/dashboard">
               <button
                 onClick={() =>
-                  handleApply(university.serviceCharge, university.name)
+                  handleApply(
+                    university.serviceCharge,
+                    university.name,
+                    university.image,
+                    university.location
+                  )
                 }
                 className="btn btn-info mt-3"
               >

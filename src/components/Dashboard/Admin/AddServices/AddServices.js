@@ -11,7 +11,7 @@ const AddServices = () => {
   const onSubmit = (data) => {
     const serviceInfo = data;
     serviceInfo.image = imageURL;
-    fetch("http://localhost:5000/addService", {
+    fetch("https://gentle-chamber-46179.herokuapp.com/addService", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(serviceInfo),

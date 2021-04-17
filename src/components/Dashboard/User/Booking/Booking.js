@@ -16,9 +16,13 @@ const Booking = () => {
     formState: { errors },
   } = useForm();
   const onSubmit = (data) => {
+    const pending = "pending";
     data.date = new Date();
-    data.process = "pending";
-    fetch("http://localhost:5000/confirmStudent", {
+    data.process = pending;
+    data.image = user.image;
+    data.location = user.location;
+    data.price = user.price;
+    fetch("https://gentle-chamber-46179.herokuapp.com/confirmStudent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),
@@ -31,7 +35,7 @@ const Booking = () => {
 
   return (
     <div>
-      <div className="row text-center">
+      <div className="row text-center d-flex justify-content-center align-items-center">
         <form onSubmit={handleSubmit(onSubmit)}>
           <input
             className="apply-form-input"
@@ -49,6 +53,7 @@ const Booking = () => {
           />
 
           <br />
+
           <input
             className="apply-form-input"
             name="name"

@@ -1,0 +1,15 @@
+.order-image img {
+  width: 200px;
+  border-radius: 10px;
+  margin: auto;
+}
+.my-order {
+  /* border: 1px solid red; */
+  padding: 10px;
+  width: 100%;
+  box-shadow: 10px 10px 20px gray;
+  border-radius: 10px;
+}
+.order-container {
+  padding: 20px;
+}

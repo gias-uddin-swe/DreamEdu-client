@@ -35,7 +35,7 @@ const Services = () => {
   const [universityInfo, setUniversityInfo] = useState([]);
   console.log(universityInfo);
   useEffect(() => {
-    fetch("http://localhost:5000/allScholarship")
+    fetch("https://gentle-chamber-46179.herokuapp.com/allScholarship")
       .then((res) => res.json())
       .then((data) => setUniversityInfo(data));
   }, []);

@@ -33,7 +33,7 @@ const Testimonial = () => {
   console.log(ClientReview);
 
   useEffect(() => {
-    fetch("http://localhost:5000/ClientReview")
+    fetch("https://gentle-chamber-46179.herokuapp.com/ClientReview")
       .then((res) => res.json())
       .then((data) => setClientReview(data));
   }, []);

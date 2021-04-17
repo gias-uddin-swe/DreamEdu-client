@@ -1,0 +1,11 @@
+.see-image img {
+  width: 80%;
+  margin: auto;
+  /* height: 600px; */
+}
+
+.image-container img {
+  width: 200px;
+  padding: 5px;
+}
+

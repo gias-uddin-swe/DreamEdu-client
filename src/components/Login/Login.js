@@ -6,6 +6,8 @@ import "./Login.css";
 import { useController } from "react-hook-form";
 import { UserContext } from "../../App";
 import { useHistory, useLocation } from "react-router";
+import loginPage from "../../images/loginPage.png";
+import googleImage from "../../images/search.png";
 
 firebase.initializeApp(firebaseConfig);
 
@@ -56,15 +58,37 @@ const Login = () => {
       });
   };
   return (
-    <div className="signIn-div">
-      <div className="text-center google-div">
-        <h1>Login with Google</h1>
+    <div className="signIn-div row d-flex justify-content align-items-center ">
+      <div className="text-center google-div col-md-6">
+        <div className="input-div">
+          <input
+            className="login-input-field"
+            type="text"
+            placeholder="Email"
+          />
+          <br />
+          <input
+            className="login-input-field"
+            type="password"
+            name=""
+            placeholder="Password"
+            id=""
+          />
+          <br />
+          <button className="login-button">Login</button>
+        </div>
         <button
           onClick={handleGoogleSignIn}
           className="btn login-btn google-btn"
         >
+          <img className="mr-4" style={{ width: "30px" }} src={googleImage} alt="" />
           Continue with Google
         </button>
+      </div>
+      <div className="col-md-6">
+        <div className="loginPage-img">
+          <img src={loginPage} alt="" />
+        </div>
       </div>
     </div>
   );

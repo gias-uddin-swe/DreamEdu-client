@@ -6,7 +6,7 @@ const AddAdmin = () => {
   const { register, handleSubmit, watch, errors } = useForm();
   const onSubmit = (data) => {
     data.role = "user";
-    fetch("http://localhost:5000/addAdmin", {
+    fetch("https://gentle-chamber-46179.herokuapp.com/addAdmin", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(data),

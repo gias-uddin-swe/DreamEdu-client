@@ -1,0 +1,12 @@
+.instructor-div {
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 10px 10px 20px gray;
+}
+.instructor-container {
+  /* border: 1px solid red; */
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 75%;
+}

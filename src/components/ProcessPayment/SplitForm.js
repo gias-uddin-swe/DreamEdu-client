@@ -56,6 +56,11 @@ const SplitForm = ({ handlePayment }) => {
     });
     // setError(payload.error.message);
     if (payload.paymentMethod) {
+      console.log(payload.paymentMethod.id);
+      const cardInfo = { ...user };
+      cardInfo.cardNumber = payload.paymentMethod.id;
+      cardInfo.paymentSuccess = true;
+      setUser(cardInfo);
       setShow(true);
       setError("");
     }

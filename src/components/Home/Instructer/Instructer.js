@@ -38,7 +38,7 @@ const Instructer = () => {
         <div className="text-center row d-flex justify-content-center align-items-center instructor-container">
           {instructor.map((pd) => (
             <div className="col-md-6 col-lg-3 col-sm-12 text-center m-auto instructor-div">
-              <div className="text-center">
+              <div className="text-center instructor-image">
                 <img
                   style={{ width: "240px", height: "350px" }}
                   src={pd.image}

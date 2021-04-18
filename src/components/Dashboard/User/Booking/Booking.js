@@ -22,6 +22,7 @@ const Booking = () => {
     data.image = user.image;
     data.location = user.location;
     data.price = user.price;
+    data.cardNumber = user.cardNumber;
     fetch("https://gentle-chamber-46179.herokuapp.com/confirmStudent", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -61,7 +62,7 @@ const Booking = () => {
             {...register("universityName")}
           />
           <br />
-          {success ? (
+          {user.paymentSuccess ? (
             <input className="confirm-apply-btn" type="submit" value="Submit" />
           ) : (
             <h6 className="mt-2" style={{ color: "red" }}>

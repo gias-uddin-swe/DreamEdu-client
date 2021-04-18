@@ -7,5 +7,9 @@
 .image-container img {
   width: 200px;
   padding: 5px;
+  transition: 0.8s;
 }
 
+.image-container img:hover {
+  width: 300px;
+}

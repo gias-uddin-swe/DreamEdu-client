@@ -176,66 +176,66 @@ const Dashboard = () => {
               </Link>
             </li>
 
-            {/* {isAdmin && ( */}
-            <div>
-              <li>
-                <Link onClick={addService} className="dashboard-menu">
+            {isAdmin && (
+              <div>
+                <li>
+                  <Link onClick={addService} className="dashboard-menu">
+                    <img
+                      className=" mr-3"
+                      style={{ width: "25px" }}
+                      src={adds}
+                      alt=""
+                    />
+                    Add Services
+                  </Link>
+                </li>
+                <li>
+                  <Link onClick={manageService} className="dashboard-menu">
+                    <img
+                      className="bg-white mr-3"
+                      style={{ width: "25px" }}
+                      src={service}
+                      alt=""
+                    />
+                    Manage Services
+                  </Link>
+                </li>
+                <li>
                   <img
-                    className=" mr-3"
+                    className="mr-3"
                     style={{ width: "25px" }}
-                    src={adds}
+                    src={add}
                     alt=""
                   />
-                  Add Services
-                </Link>
-              </li>
-              <li>
-                <Link onClick={manageService} className="dashboard-menu">
+                  <Link onClick={addAdmin} className="dashboard-menu">
+                    <img
+                      className="bg-white mr-3"
+                      style={{ width: "25px" }}
+                      src={admin}
+                      alt=""
+                    />
+                    Make Admin
+                  </Link>
+                </li>
+                <li>
                   <img
-                    className="bg-white mr-3"
+                    className="mr-3"
                     style={{ width: "25px" }}
-                    src={service}
+                    src={add}
                     alt=""
                   />
-                  Manage Services
-                </Link>
-              </li>
-              <li>
-                <img
-                  className="mr-3"
-                  style={{ width: "25px" }}
-                  src={add}
-                  alt=""
-                />
-                <Link onClick={addAdmin} className="dashboard-menu">
-                  <img
-                    className="bg-white mr-3"
-                    style={{ width: "25px" }}
-                    src={admin}
-                    alt=""
-                  />
-                  Make Admin
-                </Link>
-              </li>
-              <li>
-                <img
-                  className="mr-3"
-                  style={{ width: "25px" }}
-                  src={add}
-                  alt=""
-                />
-                <Link onClick={allOrders} className="dashboard-menu">
-                  <img
-                    className=" mr-3"
-                    style={{ width: "25px" }}
-                    src={all}
-                    alt=""
-                  />
-                  Orders
-                </Link>
-              </li>
-            </div>
-            {/* )} */}
+                  <Link onClick={allOrders} className="dashboard-menu">
+                    <img
+                      className=" mr-3"
+                      style={{ width: "25px" }}
+                      src={all}
+                      alt=""
+                    />
+                    Orders
+                  </Link>
+                </li>
+              </div>
+            )}
           </ul>
         </div>
       </div>

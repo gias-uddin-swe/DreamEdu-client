@@ -6,10 +6,9 @@ import "./MenuBar.css";
 const MenuBar = () => {
   return (
     <div>
-      {/* <Navbar className="row" bg="dark" variant="dark"> */}
       <nav className="mr-auto row">
         <div className="col-md-2 col-sm-12 col-lg-2">
-          <h1 className="text-center">
+          <h1 className="text-center ml-5">
             {" "}
             <span
               style={{
@@ -63,17 +62,6 @@ const MenuBar = () => {
           </div>
         </div>
       </nav>
-
-      {/* <div className="col-md-10 col-sm-12">
-          <Nav className="ml-auto">
-            
-            
-            
-            
-            
-          </Nav>
-        </div> */}
-      {/* </Navbar> */}
     </div>
   );
 };

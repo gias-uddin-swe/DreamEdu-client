@@ -12,7 +12,10 @@
 .footer li {
   list-style: none;
   text-align: center;
-  padding: 5px;
+  margin: 15px;
+}
+.footer li a:hover {
+  color: blue;
 }
 .footer li a {
   text-decoration: none;

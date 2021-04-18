@@ -55,9 +55,12 @@ const ServiceCards = ({ university }) => {
         <p>
           Location: <small>{university.location}</small>{" "}
         </p>
-        <div className="row text-center mt-3 w-75 m-auto">
+        <div className="row text-center mt-3 w-95 m-auto">
           <div className="col-md-6 col-sm-12 col-lg-6 mt-3">
-            <h3 className=" ">Charge: ${university.serviceCharge}</h3>
+            <h5 className=" ">
+              Service fees:{" "}
+              <span style={{ color: "red" }}>${university.serviceCharge}</span>
+            </h5>
           </div>
           <div className="col-md-6 col-sm-12 col-lg-6 ">
             <Link to="/dashboard">

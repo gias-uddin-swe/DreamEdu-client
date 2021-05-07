@@ -3,8 +3,21 @@
 This is Full Complete Project Based On react js [Click here for LIve Site Link](https://dreamedu-cn.web.app/).
 
 also you can Check Server site [Server site Repository Link](https://github.com/Porgramming-Hero-web-course/complete-website-server-gias-uddin-swe).
+[Linkedin](https://www.linkedin.com/in/gias-uddin-4167181b5//). [Portfolio](https://gias-uddin.web.app/).
 
 # key Features
+
+This is a full-stack scholarship consultancy website.
+
+ Users can apply for university scholarships (bachelor, master, Ph.D.)
+
+ Users can complete her/his payment using online payment (stripe).
+
+ Have admin and user dashboard. Admin can delete, add, manage services.
+
+ Technology: React, Bootstrap, MongoDB, Express js, Node js, Private route, Firebase Authentication, Stripe.
+
+ Deploy : Heroku, Firebase.
 
  This is a full-stack scholarship consultancy website. 
 
